@@ -1,7 +1,7 @@
 # About #
 
 This is _pulseaudio-dlna_. A small DLNA server which brings DLNA / UPNP
-support to PulseAudio.
+support to PulseAudio and Linux.
 
 It can stream your current PulseAudio playback to different UPNP devices
 (UPNP Media Renderers) in your network.
@@ -33,6 +33,9 @@ big dependencies.
 If I could help you or if you like my work, you can buy me a [coffee, a beer or pizza](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=totalexceed%40lancode%2ede&item_name=Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8).
 
 ## Changelog ##
+
+ * __0.2.4__ - (_2015-01-25_)
+    - Stream changes are now handled correctly (thanks to [Takkat-Nebuk](https://github.com/Takkat-Nebuk))
 
  * __0.2.3__ - (_2015-01-21_)
     - Fixed a timing bug where the pulseaudio module was not loaded fast enough (thanks to [Takkat-Nebuk](https://github.com/Takkat-Nebuk))
